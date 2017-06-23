@@ -16,13 +16,13 @@
 
         <div class="row">
             <div class="col-sm-12">
-                <h1 id="title">Wikipedia Viewer</h1>
+                <h1 id="title" class="set-visible">Wikipedia Viewer</h1>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12">
                 <form class="form-inline my-2 my-lg-0">
-                    <span id="search-item">
+                    <span id="search-item" class="set-visible">
                 <input id="search-term" class="form-control mr-sm-2" type="text" placeholder="Search" required>
                 <button id="search-btn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </span>
@@ -31,13 +31,13 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <h2 id="or">Or</h2>
+                <h2 id="or" class="set-visible">Or</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12">
+            <div id="random-btn" class="col-sm-12 set-visible">
                 <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
-                    <button id="random-article"class="btn btn-outline-success my-2 my-sm-0" type="submit">Get random article</button>
+                    <button id="random-article" class="btn btn-outline-success my-2 my-sm-0" type="submit">Get random article</button>
                 </a>
             </div>
         </div>
@@ -48,6 +48,8 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
+    <script src="js/velocity.min.js"></script>
+    <script src="js/velocity.ui.js"></script>    
     <script src="js/index.js"></script>
 </body>
 

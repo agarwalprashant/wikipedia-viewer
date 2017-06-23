@@ -7,6 +7,10 @@ body {
     color: #ffffff;
 }
 
+.set-visible {
+    visibility: hidden;
+}
+
 h1 {
     font-size: 3.5rem;
     margin-top: 6.5rem;

@@ -3,6 +3,10 @@
 const baseUrl = 'https://en.wikipedia.org/w/api.php?action=query&list=search';
 
 $(document).ready(function () {
+    $("#title").velocity("transition.flipYIn", {delay: 500, duration: 1500, visibility: "visible"});
+    $("#search-item").velocity("transition.flipYIn", {delay: 500, duration: 1500, visibility: "visible"});
+    $("#or").velocity("transition.flipYIn", {delay: 500, duration: 1500, visibility: "visible"});
+    $("#random-btn").velocity("transition.flipYIn", {delay: 500, duration: 1500, visibility: "visible"});
     $("#search-btn").click(function (e) {
         e.preventDefault();
         var valToSearch = $('#search-term').val();
