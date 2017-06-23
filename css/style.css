@@ -1,0 +1,91 @@
+body {
+    background-image: url(../img/tianjin-2185510_1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-top: 6.5rem;
+    margin-bottom: 2.0rem;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 2.5rem;
+    /*margin-top: 1.5rem;*/
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+#search-item {
+    width: 100%;
+    text-align: center;
+}
+
+.col-sm-12 {
+    text-align: center;
+}
+
+.form-control {
+    display: inline-block;
+    width: 50%;
+    border: 0px solid rgba(0, 0, 0, .15);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    font-size: 1.5rem;
+    opacity: 0.85;
+}
+
+#search-item {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.btn {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    font-size: 1.5rem;
+}
+
+.info-card {
+    background: white;
+    opacity: 0.85;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #383838;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
+a, a:hover, a:active, a:focus {
+    color: #014c8c;
+    text-decoration: none;
+}
+
+#wiki-logo {
+    width: 100%;
+}
+
+.tint {
+    z-index: 1;
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 576px) {
+    .form-inline .form-control {
+        display: inline-block;
+        width: 50%;
+        vertical-align: middle;
+    }
+}
